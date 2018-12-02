@@ -1,0 +1,34 @@
+
+
+/* set the min width for desktop (greater than ) */
+.side-bar{
+position: relative;
+width:100%;
+float:none;
+}
+
+/* selete all the element except first-child */
+.side-bar *:not(:first-child){
+  /* 伪元素选择器 */
+  text-align: center;
+}
+
+
+
+.main{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.article-list{
+  margin-right: 0;
+}
+/* 'che' is a input element,
+ use psudo element select the status that 'che' is checked,
+  than peform {  } on  Adjacent sibling '*' */
+#che:checked ~ * {
+  display:block;
+ }
+#che-text{
+  display: block;
+}
