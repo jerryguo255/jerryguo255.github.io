@@ -13,13 +13,17 @@ float:none;
   text-align: center;
 }
 
-
+.side-bar .nav,
+.side-bar .tag-list{
+  display: none;
+}
 
 .main{
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .article-list{
   margin-right: 0;
 }

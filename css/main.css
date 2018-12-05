@@ -27,10 +27,7 @@ a, body {
 
 }
 
-.side-bar .nav,
-.side-bar .tag-list{
-  display: none;
-}
+
 #che, #che-text{
   display: none;
 }
