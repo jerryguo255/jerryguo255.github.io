@@ -12,10 +12,13 @@ a {
   text-decoration: none;
 }
 
-a, body {
+body {
   color: #eee;
 }
 
+.side-bar > a{
+  color: #eee;
+}
 .side-bar {
   float: left;
   width: 20%;
@@ -59,6 +62,7 @@ a, body {
 
 .header .logo {
   border: 5px solid #eee;
+  color:#eee;
   padding: 10px 20px;
   font-size: 30px;
   display: inline-block;
