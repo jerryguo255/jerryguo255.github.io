@@ -23,11 +23,15 @@ body {
   float: left;
   width: 20%;
   position: fixed;
+  padding-top: 20px;
 }
 
-.side-bar>* {
-  padding: 10px 15px;
 
+
+ .tidy-left>* { /* 只有子元素 */
+  padding: 10px 15px;
+  position:relative;
+  left:13%;
 }
 
 
@@ -71,7 +75,7 @@ body {
 }
 
 .article-list, .article {
-  margin-right: 5%;
+  margin-right: 10%;
   background: #eee;
   padding: 20px 30px;
   -webkit-box-shadow: 0 0 3px 2px black;

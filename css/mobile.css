@@ -8,9 +8,13 @@ float:none;
 }
 
 /* selete all the element except first-child */
-.side-bar *:not(:first-child){
+.side-bar *{
   /* 伪元素选择器 */
   text-align: center;
+}
+
+.tidy-left>* { /* 只有子元素 */
+ position:static;
 }
 
 .side-bar .nav,
